@@ -1,0 +1,46 @@
+.about_container {
+  padding: 40px;
+  max-width: 600px;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3b455e; /* Darker blue/grey for text */
+}
+
+.about_subtitle {
+  color: #fe8402; /* Brand Orange */
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.about_title {
+  font-size: 2.5rem;
+  color: #3b455e;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.about_content p {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  color: #555;
+}
+
+.about_button {
+  display: inline-block;
+  background-color: #5b73f2;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(91, 115, 242, 0.2);
+}
+
+.about_button:hover {
+  background-color: #4a63e7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(91, 115, 242, 0.3);
+}
