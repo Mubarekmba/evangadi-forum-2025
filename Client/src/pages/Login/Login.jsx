@@ -10,7 +10,7 @@ const Login = () => {
         <div className={styles.signInSection}>
           <SignIn />
         </div>
-        
+
         {/* About Section */}
         <div className={styles.aboutWrapper}>
           <div className={styles.bgShape}></div>

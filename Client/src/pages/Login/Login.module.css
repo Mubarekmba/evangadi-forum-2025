@@ -12,7 +12,7 @@
 .loginContent {
   width: 100%;
   max-width: 1200px;
-  display: flex;           /* flex row by default */
+  display: flex; /* flex row by default */
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
@@ -59,7 +59,7 @@
 /* Responsive: stacked column for small screens */
 @media (max-width: 900px) {
   .loginContent {
-    flex-direction: column;  /* stack vertically */
+    flex-direction: column; /* stack vertically */
   }
 
   .aboutWrapper {
@@ -67,7 +67,7 @@
   }
 
   .bgShape {
-    display: none;           /* hide background shape on small screens */
+    display: none; /* hide background shape on small screens */
   }
 
   .aboutContent {
@@ -75,4 +75,3 @@
     text-align: center;
   }
 }
-
